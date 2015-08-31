@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <RadioGroup
+        android:id="@+id/fragmentsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/firstFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_fragment"
+            />
+
+        <RadioButton
+            android:id="@+id/secondFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/second_fragment" />
+
+        <RadioButton
+            android:id="@+id/thirdFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/third_fragment" />
+
+    </RadioGroup>
+
+    <fragment
+        android:id="@+id/country_fragment"
+        android:name="com.example.divyajain.anuva.BlankFragment"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/fragmentsName"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Divya%20Jain/Downloads/AndroidFreelance/AnuvaTest/app/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Anuva</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment">Fragment 1</string>
+    <string name="second_fragment">Fragment 2</string>
+    <string name="third_fragment">Fragment 3</string>
+</resources>
