@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "511605868264",
+    "firebase_url": "https://fcmsampleapp-8b777.firebaseio.com",
+    "project_id": "fcmsampleapp-8b777",
+    "storage_bucket": "fcmsampleapp-8b777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511605868264:android:0a7b991bda61ced7",
+        "android_client_info": {
+          "package_name": "com.divyajain.fcmsampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511605868264-s5mh3nb4beg8uo2qo6hvqcht0esck5fk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChKatDDsm1is7YU1NWmHUWcVRN0bNi3vE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
